@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/NoahFisher/plotly-js"
   spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,vendor/**/*}"]
+  spec.files         = Dir["{lib,vendor}/**/*"]
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
